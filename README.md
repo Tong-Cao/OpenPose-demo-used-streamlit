@@ -7,5 +7,5 @@
 
 镜像创建完成后输入`docker compose up`创建容器并运行  
 ***
-在fastapi文件夹中的openpose.py中可以更换模型，其中cmu模型识别效果最好  
-如需使用cmu模型请在./fastapi/models/graph/cmu中运行.sh文件进行模型下载，并在openpose.py中完成模型选择
+在**fastapi**文件夹中的**openpose.py**中可以更换模型，其中**cmu**模型识别效果最好  
+如需使用cmu模型请在`./fastapi/models/graph/cmu`中运行**.sh**文件进行模型下载，并在**openpose.py**中完成模型选择
