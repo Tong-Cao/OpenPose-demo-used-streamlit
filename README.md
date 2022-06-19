@@ -1,7 +1,7 @@
 # OpenPose-demo-used-streamlit
 使用**streamlit**以及**fastapi**来搭建前后端用来展示**OpenPose**处理结果的简单例程  
 
-直接下载压缩文件，在创建镜像过程之可能会报错，建议采用本地仓库拉取方式  
+直接下载压缩文件，在创建镜像过程中可能会报错，建议采用本地仓库拉取方式  
 
 运行前先安装好**docker**以及**compose**
 
