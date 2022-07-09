@@ -24,5 +24,8 @@ def get_estimation_map(file: bytes = File(...)):
     estimated_image.save(bytes_io, format="PNG")
     return Response(bytes_io.getvalue(), media_type="image/png")
 
+# 自动运行uvicorn
+if __name__ == '__main__':
+    uvicorn.run(app='server:app', host="127.0.0.1", port=8000, reload=True, debug=True)
 
 
